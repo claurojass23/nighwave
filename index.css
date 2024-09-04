@@ -91,6 +91,7 @@ main{
     margin-top: 5px; 
 }
 
+
 .eventos{
     background-color:  #101010;
     width: 250px;
@@ -121,9 +122,9 @@ article{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 120px 40px 20px 40px;
+    margin: 60px 40px 20px 40px;
     background-color:  #101010;
-    height: 350px;
+    height: 600px;
   
 }
 
@@ -264,6 +265,7 @@ footer {
     color: #fff;
 }
 
+
 @media (max-width: 1024px) and (min-width: 768px){
 
     .carousel-container {
@@ -358,6 +360,15 @@ footer {
     }
 
     #enviar{
-        margin-left: 60px;
+        margin-left: 30px;
+    }
+   
+    .formulario{
+        margin-left: 30px;
+    }
+
+    .ulFooter{
+      display: flex;
+      margin: 0;
     }
 }
